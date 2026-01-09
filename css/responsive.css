@@ -1,0 +1,252 @@
+/* ----------------- container ----------------- */
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1200px !important;
+    }
+}
+
+
+@media (min-width: 1200px) and (max-width : 1279px) {
+    .container {
+        max-width: 1140px !important;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width : 1199px) {
+    .container {
+        max-width: 960px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width : 991px) {
+    .container {
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width : 767px) {
+    .container {
+        max-width: 540px !important;
+    }
+}
+
+/* ----------------- myVedio ----------------- */
+@media (max-width : 1130px) and (min-width : 1081px) {
+    #myVideo {
+        width: auto !important;
+    }
+}
+
+/* ----------------- mood-btn ----------------- */
+
+@media only screen and (max-width: 992px) {
+    .mood-btn {
+        position: absolute;
+        right: 50px;
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .mood-btn {
+        right: 20px;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width: 805px) {
+    .mood-btn {
+        right: 40px;
+    }
+}
+
+/* ----------------- navbar-toggler ----------------- */
+
+@media (max-width: 680px) {
+    .navbar-toggler {
+        margin-right: 48px !important;
+    }
+}
+
+@media (min-width: 681px) and (max-width: 770px) {
+    .navbar-toggler {
+        margin-right: 0 !important;
+    }
+}
+
+@media (min-width: 771px) and (max-width: 805px) {
+    .navbar-toggler {
+        margin-right: 48px !important;
+    }
+}
+
+@media (min-width: 915px) and (max-width: 990px) {
+    .navbar-toggler {
+        margin-right: 0px !important;
+    }
+}
+
+/* ----------------- hero ----------------- */
+
+@media (max-width: 1330px) {
+    #myVideo {
+        width: auto !important;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1130px) {
+    .hero {
+        min-height: 700px;
+    }
+
+    .hero .content h2 {
+        font-size: 48px !important;
+        line-height: 60px !important;
+    }
+
+}
+
+@media (max-width: 1080px) {
+    .hero {
+        min-height: 680px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero {
+        min-height: 780px;
+    }
+
+    .hero .content h2 {
+        font-size: 52px !important;
+        line-height: 62px !important;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .hero {
+        min-height: 740px;
+    }
+}
+
+@media (max-width: 667px) {
+    .hero {
+        min-height: 540px;
+    }
+
+    .hero .content h2 {
+        font-size: 36 !important;
+        line-height: 46px !important;
+    }
+}
+
+@media (max-width: 600px) {
+    .hero {
+        min-height: 500px;
+    }
+
+    .hero .content h2 {
+        font-size: 30px !important;
+        line-height: 42px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero .content h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+}
+
+/* ----------------- about ----------------- */
+
+@media (max-width:1080px) {
+    .about .content h3 {
+        font-size: 30px !important;
+        line-height: 32px !important;
+    }
+
+    .about .content p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+
+@media (max-width:568px) {
+    .about .content h3 {
+        font-size: 26px !important;
+        line-height: 32px !important;
+    }
+
+    .about .content p {
+        font-size: 17px;
+        line-height: 27px;
+    }
+}
+
+/* ----------------- counter ----------------- */
+
+@media (min-width: 569px) and (max-width: 1080px) {
+    .counter .heading h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    .counter .timer {
+        max-width: 600px;
+    }
+}
+
+@media (max-width: 568px) {
+    .counter .heading h2 {
+        font-size: 26px !important;
+        line-height: 32px !important;
+    }
+
+    .counter .timer {
+        max-width: 350px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .counter p {
+        font-size: 16px !important;
+        line-height: 28px !important;
+    }
+}
+
+/* ----------------- Event-schedule ----------------- */
+
+@media only screen and (max-width: 992px) {
+    .Event-schedule .row {
+        justify-content: center;
+        padding: 0;
+    }
+
+    .Event-schedule .row img {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 779px) {
+    .Event-schedule .tabs button {
+        display: block;
+        width: 100%;
+        margin: 10px;
+    }
+}
+
+/* ----------------- Register ----------------- */
+
+@media (max-width: 992px) {
+    .Register form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 8px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
