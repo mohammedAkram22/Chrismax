@@ -8,6 +8,10 @@
     --secondary-color: #1fb66d;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
 
 body {
     font-family: "Nunito", sans-serif;

@@ -33,13 +33,19 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-0 mb-lg-0 me-lg-4">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <li class="nav-item" onclick="document.querySelector('.collapse').classList.remove('show');
+                            document.querySelector('.navbar-toggler span').classList.replace('fa-close','fa-bars');
+                            ">
+                                <a class=" nav-link active" aria-current="page" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" onclick="document.querySelector('.collapse').classList.remove('show');
+                            document.querySelector('.navbar-toggler span').classList.replace('fa-close','fa-bars');
+                            ">
                                 <a class="nav-link" href="#about">About</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item" onclick="document.querySelector('.collapse').classList.remove('show');
+                            document.querySelector('.navbar-toggler span').classList.replace('fa-close','fa-bars');
+                            ">
                                 <a class="nav-link" href="#pricing">Pricing</a>
                             </li>
                             <li class="nav-item dropdown">
@@ -62,8 +68,10 @@
                                     "><a class="dropdown-item" href="#Testimonials">Testimonials</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                            <li class="nav-item" onclick="document.querySelector('.collapse').classList.remove('show');
+                            document.querySelector('.navbar-toggler span').classList.replace('fa-close','fa-bars');
+                            ">
+                                <a class="nav-link" href="#contact">Contact</a>
                             </li>
                         </ul>
                         <ul class="navbar-nav buttons align-items-center">
@@ -598,7 +606,7 @@
             <button class="fa fa-arrow-up"></button>
         </div>
     </main>
-    <footer>
+    <footer id="contact">
         <div id="stars"></div>
         <div id="stars2"></div>
         <div id="stars3"></div>
