@@ -23,7 +23,6 @@ window.onload = () => {
     localStorage.getItem("mood") == "dark" ? document.querySelector("body").classList.add("dark") : document.querySelector("body").classList.remove("dark");
     document.body.classList.contains("dark") ? document.querySelector(".mood-btn i").classList.replace("fa-moon", "fa-sun") : document.querySelector(".mood-btn i").classList.replace("fa-sun", "fa-moon");
     (window.scrollY > 95) ? document.querySelector("header").classList.add("scrolled") : document.querySelector("header").classList.remove("scrolled")
-    // localStorage.setItem("mood", "light");
 }
 document.querySelector('.mood-btn').onclick = () => {
     if (localStorage.getItem("mood")) {
